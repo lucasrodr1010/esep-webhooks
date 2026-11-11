@@ -1,0 +1,6 @@
+{
+  "zen": "Keep it logically awesome.",
+  "hook_id": 123456789,
+  "hook": { "type": "Repository", "events": ["issues"], "active": true },
+  "repository": { "full_name": "your-github-username/esep-webhooks" }
+}

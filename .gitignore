@@ -1,0 +1,16 @@
+# Build output
+build/
+bootstrap
+*.zip
+
+# The spec (Part 2, page 4) says the Slack URL must never appear in this
+# file; the dotnet deploy tool writes it there if you ever pass it.
+aws-lambda-tools-defaults.json
+
+# Anything that could hold the Slack URL
+.env
+.env.*
+*.local
+
+# Go coverage output
+coverage.out

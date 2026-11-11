@@ -1,0 +1,16 @@
+{
+  "action": "opened",
+  "issue": {
+    "url": "https://api.github.com/repos/your-github-username/esep-webhooks/issues/1",
+    "html_url": "https://github.com/your-github-username/esep-webhooks/issues/1",
+    "number": 1,
+    "title": "Sample issue for a local run",
+    "state": "open",
+    "user": { "login": "your-github-username" }
+  },
+  "repository": {
+    "full_name": "your-github-username/esep-webhooks",
+    "html_url": "https://github.com/your-github-username/esep-webhooks"
+  },
+  "sender": { "login": "your-github-username" }
+}
